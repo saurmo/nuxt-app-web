@@ -1,0 +1,26 @@
+{
+  "name": "app-web",
+  "version": "1.0.0",
+  "description": "Aplicación web con vue, nuxt, vuetify, axios y otros",
+  "author": "saurmo.co",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "nuxt": "^1.0.0",
+    "vue-cookie": "^1.1.4",
+    "vue-moment": "^4.0.0",
+    "vue2-filters": "^0.3.0",
+    "vuetify": "^1.1.7"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
