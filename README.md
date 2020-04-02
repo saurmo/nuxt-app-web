@@ -1,36 +1,25 @@
-# APP WEB
+# APP WEB WITH NUXT - VUE
 
->NUXT APP WEB is a template  nuxt with  vuetify, axios, Vue moment, vue filters and Vue cookie 
+Web aplicattion with [nuxtjs](https://nuxtjs.org/) (The Progressive
+Vue.js Framework).
 
-## DEPENDENCIES
-0. Vuetify            https://vuetifyjs.com/en/                        npm install vuetify --save
-1. Vue Filters        https://github.com/freearhey/vue2-filters        npm install vue2-filters --save 
-2. Vue moment         https://github.com/brockpetrie/vue-moment        npm install vue-moment --save
-3. Vue cookie         https://github.com/alfhen/vue-cookie             npm install vue-cookie --save
+The configuration selected to nuxtjs was:
 
+1. server `None (Nuxt default server)`
+2. UI framework [vuetify 1.5](https://v15.vuetifyjs.com/en/getting-started/quick-start)
+3. Testing framework `None (feel free to add one later)`
+4. Nuxt mode `Universal`
+5. axios module `selected`
 
-## How do I start it?
+Additional was has install the next common tools:
 
-> From https://github.com/nuxt-community/create-nuxt-app
-
-``` bash
-0. Prerequisites NPM since 5.2.0
-1. $ npm install -g npx
-2. $ npx create-nuxt-app
-3. Select serve none(nuxt)
-4. Select UI framework (Vuetify)
-5. Rendering mode (Universal)
-6. Axios module (yes)
-7. eslint (no)
-8. package manager (npm)
-
-```
-
-
+1. [Vue Filters](https://github.com/freearhey/vue2-filters) `npm i vue2-filters`
+2. [Vue moment](https://github.com/brockpetrie/vue-moment) `npm i vue-moment`
+3. [Vue cookie](https://github.com/alfhen/vue-cookie) `npm i vue-cookie --save`
 
 ## Build Setup from nuxt
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
@@ -43,10 +32,6 @@ $ npm start
 
 # generate static project
 $ npm run generate
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
-
 ```
 
-
-
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
